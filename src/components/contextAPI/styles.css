@@ -1,0 +1,23 @@
+.container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.prop-drilling-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+.tree-node {
+    transition: background-color 0.35s ease-in-out;
+}

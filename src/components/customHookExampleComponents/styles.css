@@ -1,0 +1,10 @@
+.tick-time-input-container {
+    display: flex;
+    gap: 0.5em;
+}
+
+.tick-time-input-container > label,
+.tick-time-input-container > span {
+    font-size: 19px;
+}
+

@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.top {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+}
+
+.center {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+/* Common CSS */
+.tutorials-container {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  animation: fadein 0.35s ease-out;
+  flex-wrap: wrap;
+}
+
+@keyframes fadein {
+  from {
+    transform: translateX(-50vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.common-container {
+  padding: 14vmin 8vmin;
+  background: #242930;
+  border-radius: 40px;
+  transition: all 0.3s ease-out;
+}
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

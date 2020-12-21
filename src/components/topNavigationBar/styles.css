@@ -1,0 +1,37 @@
+.top-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #20232a;
+    padding: 0 10vw;
+}
+
+@media screen and (max-width: 1300px) {
+    .top-bar-container {
+        padding: 0 10px;
+    }
+}
+
+.top-bar-item {
+    flex: 1;
+    padding: 10px 5px;
+    cursor: pointer;
+
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.top-bar-item:hover {
+    color: #61dafb;
+    transition: color 0.3s linear;
+    white-space: unset;
+    text-overflow: unset;
+}
+
+
+.selected-item {
+    color: #61dafb;
+    padding-bottom: 8px;
+    border-bottom: 2px #61dafb solid;
+}
