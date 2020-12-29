@@ -1,1 +1,1 @@
-This project is created for introducing some advanced ReactJS concepts.
+This project is created for introducing some ReactJS concepts.
