@@ -9,10 +9,10 @@ import AllMiscTutorials from "../misc/AllMiscTutorials";
 import AllReactHooksTutorials from "../reactHooks/AllReactHooksTutorialsjs";
 
 const ITEMS = [
-  {name: 'Context API', component: () => AllContextAPITutorials},
   {name: 'Custom Hooks', component: () => AllCustomHookTutorials},
-  {name: 'React Hooks', component: () => AllReactHooksTutorials},
   {name: 'Memoization/Reference', component: () => AllMemoryTutorials},
+  {name: 'React Hooks', component: () => AllReactHooksTutorials},
+  {name: 'Context API', component: () => AllContextAPITutorials},
   {name: 'Misc', component: () => AllMiscTutorials},
 ];
 
